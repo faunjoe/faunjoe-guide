@@ -345,7 +345,7 @@ protected void loadProperties(Properties props) throws IOException {
 
 上面我们聊了FactoryBean的原理和实现，最后来看下它的设计模式。工厂方法模式其实非常常见，应用者众多，因为其很好理解且非常使用。先来看下FactoryBean的UML图 。 
 
-![](/img/1.png)
+![](img/1.png)
 
 FactoryBean是工厂的接口，接口中的getObject方法返回的产品默认是一个Object。PropertiesFactoryBean是工厂的一个实现，生产出来的是Object的子类Properties。对于不同的工厂实现，生产出来的产品也是不同的。比如JndiObjectFactoryBean返回的是JNDI对象，RmiProxyFactoryBean返回的是RMI对象。
 
