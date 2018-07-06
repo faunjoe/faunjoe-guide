@@ -8,7 +8,7 @@ Spring IOC容器 源码解析系列，建议大家按顺序阅读，欢迎讨论
 
 [Spring源码-IOC容器(一)-构建简单IOC容器](https://my.oschina.net/u/2377110/blog/902073)
 
-[Spring源码-IOC容器(二)-Bean的定位解析注册]()
+[Spring源码-IOC容器(二)-Bean的定位解析注册](https://my.oschina.net/u/2377110/blog/913655)
 
 [Spring源码-IOC容器(三)-GetBean]()
 
