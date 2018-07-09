@@ -1,3 +1,4 @@
 - [carl.zhao 开源技术爱好者 dubbo、spring mvc、core-java](http://www.carlzone.cn)
 - [恒宇少年 SpringBoot2](https://www.jianshu.com/u/092df3f77bca)
 - [青离 Spring IoC、Spring Aop、Spring MvC、Spring Transactional](https://my.oschina.net/u/2377110)
+- [黄勇 Java那点事儿()](https://my.oschina.net/huangyong)
