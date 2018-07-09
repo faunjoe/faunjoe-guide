@@ -1,1 +1,2 @@
 - [carl.zhao 开源技术爱好者 dubbo、spring mvc、core-java](http://www.carlzone.cn)
+- [恒宇少年 SpringBoot2](https://www.jianshu.com/u/092df3f77bca)
