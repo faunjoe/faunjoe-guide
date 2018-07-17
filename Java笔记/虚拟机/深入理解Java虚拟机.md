@@ -32,3 +32,20 @@
 - Parnew
 - GC
 
+
+# jps (Java Process Status java进程状态 )
+```
+jps -help
+jps -l
+jps -m
+jps -v
+```
+
+# jstat 
+
+# jinfo
+- 实时查看和调整虚拟机的各项参数。
+
+# jmap
+
+# jhat (jvm heap analysis tool)

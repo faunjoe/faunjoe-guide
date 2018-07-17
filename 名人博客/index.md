@@ -3,3 +3,4 @@
 - [青离 Spring IoC、Spring Aop、Spring MvC、Spring Transactional](https://my.oschina.net/u/2377110)
 - [黄勇 Java那点事儿()](https://my.oschina.net/huangyong)
 - [美团技术团队](https://tech.meituan.com/)
+- [黄太洪的博客 Netty、RabbitMQ](https://blog.csdn.net/robertohuang)

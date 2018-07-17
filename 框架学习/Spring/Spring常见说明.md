@@ -1,0 +1,1 @@
+# @ComponentScan注解 Spring 3.1 版本中才出现。
