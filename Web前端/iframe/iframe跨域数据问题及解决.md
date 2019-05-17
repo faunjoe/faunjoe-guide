@@ -10,6 +10,12 @@ Uncaught DOMException: Blocked a frame with origin
 
 
 
+# [html5 postMessage解决跨域、跨窗口消息传递](https://www.cnblogs.com/dolphinX/p/3464056.html)
+
+
+
+
+
 使用监听方式发送数据给父页面，当父页面接收到相关的数据后执行操作，解决了无法调用父页面的操作。
 
 ```javascript
