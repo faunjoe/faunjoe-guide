@@ -1,0 +1,211 @@
+25368:C 08 Jun 2019 14:09:46.668 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+25368:C 08 Jun 2019 14:09:46.668 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=25368, just started
+25368:C 08 Jun 2019 14:09:46.668 # Configuration loaded
+25369:S 08 Jun 2019 14:09:46.671 * Increased maximum number of open files to 10032 (it was originally set to 256).
+25369:S 08 Jun 2019 14:09:46.676 * Running mode=standalone, port=6381.
+25369:S 08 Jun 2019 14:09:46.676 # Server initialized
+25369:S 08 Jun 2019 14:09:46.676 * Ready to accept connections
+25369:S 08 Jun 2019 14:09:46.677 * Connecting to MASTER 127.0.0.1:6379
+25369:S 08 Jun 2019 14:09:46.677 * MASTER <-> REPLICA sync started
+25369:S 08 Jun 2019 14:09:46.677 * Non blocking connect for SYNC fired the event.
+25369:S 08 Jun 2019 14:09:46.678 * Master replied to PING, replication can continue...
+25369:S 08 Jun 2019 14:09:46.678 * Partial resynchronization not possible (no cached master)
+25369:S 08 Jun 2019 14:09:46.679 * Full resync from master: fac25920d4ca291ba5f4130a1426d79ea9e137a4:14
+25369:S 08 Jun 2019 14:09:46.740 * MASTER <-> REPLICA sync: receiving 1058079 bytes from master
+25369:S 08 Jun 2019 14:09:46.746 * MASTER <-> REPLICA sync: Flushing old data
+25369:S 08 Jun 2019 14:09:46.746 * MASTER <-> REPLICA sync: Loading DB in memory
+25369:S 08 Jun 2019 14:09:46.786 * MASTER <-> REPLICA sync: Finished with success
+25369:M 08 Jun 2019 15:10:52.584 # Setting secondary replication ID to fac25920d4ca291ba5f4130a1426d79ea9e137a4, valid up to offset: 612447. New replication ID is ed895378ebfe4563e1570bda4467de249ca11a36
+25369:M 08 Jun 2019 15:10:52.584 # Connection with master lost.
+25369:M 08 Jun 2019 15:10:52.584 * Caching the disconnected master state.
+25369:M 08 Jun 2019 15:10:52.585 * Discarding previously cached master state.
+25369:M 08 Jun 2019 15:10:52.585 * MASTER MODE enabled (user request from 'id=5 addr=127.0.0.1:57083 fd=9 name=sentinel-973d55ae-cmd age=3125 idle=0 flags=x db=0 sub=0 psub=0 multi=3 qbuf=273 qbuf-free=32495 obl=36 oll=0 omem=0 events=r cmd=exec')
+25369:M 08 Jun 2019 15:10:52.587 # CONFIG REWRITE executed with success.
+25369:M 08 Jun 2019 15:10:54.034 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 08 Jun 2019 15:10:54.034 * Partial resynchronization not accepted: Requested offset for second ID was 612713, but I can reply up to 612447
+25369:M 08 Jun 2019 15:10:54.035 * Starting BGSAVE for SYNC with target: disk
+25369:M 08 Jun 2019 15:10:54.035 * Background saving started by pid 42409
+42409:C 08 Jun 2019 15:10:54.072 * DB saved on disk
+25369:M 08 Jun 2019 15:10:54.140 * Background saving terminated with success
+25369:M 08 Jun 2019 15:10:54.144 * Synchronization with replica 127.0.0.1:6380 succeeded
+25369:M 08 Jun 2019 15:11:03.966 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 08 Jun 2019 15:11:03.966 * Partial resynchronization not accepted: Requested offset for second ID was 614442, but I can reply up to 612447
+25369:M 08 Jun 2019 15:11:03.967 * Starting BGSAVE for SYNC with target: disk
+25369:M 08 Jun 2019 15:11:03.968 * Background saving started by pid 42458
+42458:C 08 Jun 2019 15:11:03.998 * DB saved on disk
+25369:M 08 Jun 2019 15:11:04.025 * Background saving terminated with success
+25369:M 08 Jun 2019 15:11:04.029 * Synchronization with replica 127.0.0.1:6379 succeeded
+25369:M 08 Jun 2019 18:08:44.205 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 08 Jun 2019 18:08:45.091 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 08 Jun 2019 18:08:45.101 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 08 Jun 2019 18:08:45.101 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 08 Jun 2019 18:08:45.103 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 08 Jun 2019 18:08:45.104 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 1558797.
+25369:M 08 Jun 2019 18:08:45.202 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 08 Jun 2019 18:08:45.202 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 1558797.
+25369:M 08 Jun 2019 19:56:49.511 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 08 Jun 2019 19:56:50.092 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 08 Jun 2019 19:56:50.093 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 08 Jun 2019 19:56:50.094 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 08 Jun 2019 19:56:50.096 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 08 Jun 2019 19:56:50.097 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 1560806.
+25369:M 08 Jun 2019 19:56:50.099 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 08 Jun 2019 19:56:50.099 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 1560806.
+25369:M 08 Jun 2019 20:38:03.513 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 08 Jun 2019 20:38:04.100 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 08 Jun 2019 20:38:04.100 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 08 Jun 2019 20:38:04.100 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 08 Jun 2019 20:38:04.123 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 08 Jun 2019 20:38:04.123 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 1562815.
+25369:M 08 Jun 2019 20:38:04.130 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 08 Jun 2019 20:38:04.130 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 1562815.
+25369:M 09 Jun 2019 01:52:42.325 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 01:52:43.102 # Connection with replica client id #26 lost.
+25369:M 09 Jun 2019 01:52:43.106 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 01:52:43.106 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5144568.
+25369:M 09 Jun 2019 01:52:43.108 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 01:52:43.109 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5144568.
+25369:M 09 Jun 2019 03:40:50.102 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 03:40:51.093 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 03:40:51.094 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 03:40:51.094 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 03:40:51.095 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 03:40:51.096 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5151792.
+25369:M 09 Jun 2019 03:40:51.099 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 03:40:51.099 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5151792.
+25369:M 09 Jun 2019 05:28:53.614 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 05:28:54.090 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 05:28:54.108 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 05:28:54.112 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 05:28:54.113 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 05:28:54.113 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5153801.
+25369:M 09 Jun 2019 05:28:54.114 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 05:28:54.115 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5153801.
+25369:M 09 Jun 2019 05:59:46.535 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 05:59:47.100 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 05:59:47.101 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 05:59:47.104 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 05:59:47.105 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5155810.
+25369:M 09 Jun 2019 05:59:47.106 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 05:59:47.106 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5155810.
+25369:M 09 Jun 2019 07:47:56.217 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 07:47:57.090 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 07:47:57.091 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5163048.
+25369:M 09 Jun 2019 07:47:57.100 # Connection with replica client id #34 lost.
+25369:M 09 Jun 2019 07:47:57.106 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 07:47:57.106 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5163048.
+25369:M 09 Jun 2019 09:35:59.009 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 09:36:00.091 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 09:36:00.091 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 09:36:00.093 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 09:36:00.097 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 09:36:00.097 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5165057.
+25369:M 09 Jun 2019 09:36:00.099 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 09:36:00.099 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5165057.
+25369:M 09 Jun 2019 09:46:48.219 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 09:46:49.553 # Connection with replica client id #38 lost.
+25369:M 09 Jun 2019 09:46:49.561 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 09:46:49.561 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 532 bytes of backlog starting from offset 5167066.
+25369:M 09 Jun 2019 09:46:49.563 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 09:46:49.563 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 532 bytes of backlog starting from offset 5167066.
+25369:M 09 Jun 2019 09:47:59.010 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 09:48:00.095 # Connection with replica client id #40 lost.
+25369:M 09 Jun 2019 09:48:00.100 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 09:48:00.100 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5169208.
+25369:M 09 Jun 2019 09:48:00.102 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 09:48:00.102 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5169208.
+25369:M 09 Jun 2019 11:48:10.105 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 11:48:11.086 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 11:48:11.090 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 11:48:11.091 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 11:48:11.097 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 11:48:11.098 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 413 bytes of backlog starting from offset 5171336.
+25369:M 09 Jun 2019 11:48:11.100 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 11:48:11.100 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 413 bytes of backlog starting from offset 5171336.
+25369:M 09 Jun 2019 13:36:14.609 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 13:36:15.087 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 13:36:15.088 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 13:36:15.088 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 13:36:15.090 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 13:36:15.090 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 413 bytes of backlog starting from offset 5173345.
+25369:M 09 Jun 2019 13:36:15.092 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 13:36:15.092 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 413 bytes of backlog starting from offset 5173345.
+25369:M 09 Jun 2019 13:41:51.509 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 13:41:52.090 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 13:41:52.090 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 13:41:52.091 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 13:41:52.093 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 13:41:52.093 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 413 bytes of backlog starting from offset 5175354.
+25369:M 09 Jun 2019 13:41:52.094 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 13:41:52.094 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 413 bytes of backlog starting from offset 5175354.
+25369:M 09 Jun 2019 14:19:41.109 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 14:19:42.092 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 14:19:42.092 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 14:19:42.122 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 14:19:42.131 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 14:19:42.131 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 5178574.
+25369:M 09 Jun 2019 14:19:42.135 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 14:19:42.136 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 5178574.
+25369:M 09 Jun 2019 21:09:01.524 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 21:09:02.104 # Connection with replica client id #50 lost.
+25369:M 09 Jun 2019 21:09:02.107 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 21:09:02.107 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8864109.
+25369:M 09 Jun 2019 21:09:02.109 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 21:09:02.109 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8864109.
+25369:M 09 Jun 2019 22:57:05.308 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 09 Jun 2019 22:57:06.086 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 09 Jun 2019 22:57:06.089 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 09 Jun 2019 22:57:06.090 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 09 Jun 2019 22:57:06.093 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 09 Jun 2019 22:57:06.094 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8866118.
+25369:M 09 Jun 2019 22:57:06.096 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 09 Jun 2019 22:57:06.097 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8866118.
+25369:M 10 Jun 2019 00:07:00.106 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 10 Jun 2019 00:07:01.112 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 00:07:01.112 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 10 Jun 2019 00:07:01.113 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 10 Jun 2019 00:07:01.118 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 00:07:01.119 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8868127.
+25369:M 10 Jun 2019 00:07:01.121 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 00:07:01.122 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8868127.
+25369:M 10 Jun 2019 01:55:06.103 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 10 Jun 2019 01:55:07.094 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 01:55:07.098 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 10 Jun 2019 01:55:07.099 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 10 Jun 2019 01:55:07.106 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 01:55:07.107 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8875351.
+25369:M 10 Jun 2019 01:55:07.107 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 01:55:07.108 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8875351.
+25369:M 10 Jun 2019 02:34:52.105 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 10 Jun 2019 02:34:53.091 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 02:34:53.096 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 10 Jun 2019 02:34:53.096 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 10 Jun 2019 02:34:53.100 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 02:34:53.101 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8877360.
+25369:M 10 Jun 2019 02:34:53.102 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 02:34:53.103 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8877360.
+25369:M 10 Jun 2019 04:23:01.003 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 04:23:02.096 # Connection with replica client id #60 lost.
+25369:M 10 Jun 2019 04:23:02.097 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 04:23:02.100 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8884598.
+25369:M 10 Jun 2019 04:23:02.105 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 04:23:02.106 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8884598.
+25369:M 10 Jun 2019 06:05:48.214 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 06:05:49.095 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 06:05:49.095 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8891423.
+25369:M 10 Jun 2019 06:05:49.105 # Connection with replica client id #62 lost.
+25369:M 10 Jun 2019 06:05:49.131 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 06:05:49.131 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8891423.
+25369:M 10 Jun 2019 10:02:10.241 # Disconnecting timedout replica: 127.0.0.1:6379
+25369:M 10 Jun 2019 10:02:10.269 # Connection with replica 127.0.0.1:6379 lost.
+25369:M 10 Jun 2019 10:02:10.284 # Disconnecting timedout replica: 127.0.0.1:6380
+25369:M 10 Jun 2019 10:02:10.285 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 10 Jun 2019 10:02:10.313 * Replica 127.0.0.1:6379 asks for synchronization
+25369:M 10 Jun 2019 10:02:10.316 * Partial resynchronization request from 127.0.0.1:6379 accepted. Sending 399 bytes of backlog starting from offset 8893432.
+25369:M 10 Jun 2019 10:02:10.995 * Replica 127.0.0.1:6380 asks for synchronization
+25369:M 10 Jun 2019 10:02:10.998 * Partial resynchronization request from 127.0.0.1:6380 accepted. Sending 399 bytes of backlog starting from offset 8893432.
+25369:signal-handler (1560135219) Received SIGTERM scheduling shutdown...
+25369:M 10 Jun 2019 10:53:39.267 # Connection with replica 127.0.0.1:6380 lost.
+25369:M 10 Jun 2019 10:53:39.330 # User requested shutdown...
+25369:M 10 Jun 2019 10:53:39.330 * Removing the pid file.
+25369:M 10 Jun 2019 10:53:39.331 # Redis is now ready to exit, bye bye...

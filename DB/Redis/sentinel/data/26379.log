@@ -1,0 +1,74 @@
+27957:X 08 Jun 2019 14:18:47.410 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+27957:X 08 Jun 2019 14:18:47.410 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=27957, just started
+27957:X 08 Jun 2019 14:18:47.410 # Configuration loaded
+27958:X 08 Jun 2019 14:18:47.412 * Increased maximum number of open files to 10032 (it was originally set to 256).
+27958:X 08 Jun 2019 14:18:47.416 * Running mode=sentinel, port=26379.
+27958:X 08 Jun 2019 14:18:47.417 # Sentinel ID is 973d55aeb54af84ffd4b1fdec971e62f968c743b
+27958:X 08 Jun 2019 14:18:47.417 # +monitor master mymaster 127.0.0.1 6379 quorum 2
+27958:X 08 Jun 2019 14:18:47.418 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 14:18:47.419 * +slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 14:18:57.883 * +sentinel sentinel 4544cb958ed60b51282eaca9fc59bd967c7452ac 127.0.0.1 26380 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 14:19:39.528 * +sentinel sentinel c0ac05bb266f596977afb4728ca5671ae311e2be 127.0.0.1 26381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.404 # Executing user requested FAILOVER of 'mymaster'
+27958:X 08 Jun 2019 15:10:52.405 # +new-epoch 1
+27958:X 08 Jun 2019 15:10:52.405 # +try-failover master mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.446 # +vote-for-leader 973d55aeb54af84ffd4b1fdec971e62f968c743b 1
+27958:X 08 Jun 2019 15:10:52.447 # +elected-leader master mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.447 # +failover-state-select-slave master mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.510 # +selected-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.510 * +failover-state-send-slaveof-noone slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:52.583 * +failover-state-wait-promotion slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:53.493 # +promoted-slave slave 127.0.0.1:6381 127.0.0.1 6381 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:53.493 # +failover-state-reconf-slaves master mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:53.547 * +slave-reconf-sent slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:54.569 * +slave-reconf-inprog slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:54.569 * +slave-reconf-done slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:54.623 # +failover-end master mymaster 127.0.0.1 6379
+27958:X 08 Jun 2019 15:10:54.623 # +switch-master mymaster 127.0.0.1 6379 127.0.0.1 6381
+27958:X 08 Jun 2019 15:10:54.624 * +slave slave 127.0.0.1:6380 127.0.0.1 6380 @ mymaster 127.0.0.1 6381
+27958:X 08 Jun 2019 15:10:54.624 * +slave slave 127.0.0.1:6379 127.0.0.1 6379 @ mymaster 127.0.0.1 6381
+27958:X 08 Jun 2019 18:08:44.003 # +tilt #tilt mode entered
+27958:X 08 Jun 2019 19:56:49.005 # +tilt #tilt mode entered
+27958:X 08 Jun 2019 20:38:03.006 # +tilt #tilt mode entered
+27958:X 08 Jun 2019 20:38:04.871 # +tilt #tilt mode entered
+27958:X 08 Jun 2019 20:38:08.396 # +tilt #tilt mode entered
+27958:X 08 Jun 2019 20:38:38.445 # -tilt #tilt mode exited
+27958:X 09 Jun 2019 01:52:42.001 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 01:53:12.046 # -tilt #tilt mode exited
+27958:X 09 Jun 2019 03:40:50.002 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 05:28:53.006 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 05:59:46.003 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 06:00:16.065 # -tilt #tilt mode exited
+27958:X 09 Jun 2019 07:47:56.002 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 09:35:59.009 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 09:36:01.744 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 09:46:48.003 # -tilt #tilt mode exited
+27958:X 09 Jun 2019 09:46:49.552 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 09:47:59.010 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 11:48:10.005 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 11:48:12.336 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 13:36:14.003 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 13:41:51.004 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 14:19:41.007 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 14:20:11.043 # -tilt #tilt mode exited
+27958:X 09 Jun 2019 21:09:01.006 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 22:57:05.004 # +tilt #tilt mode entered
+27958:X 09 Jun 2019 22:57:07.908 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 00:07:00.004 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 00:07:30.075 # -tilt #tilt mode exited
+27958:X 10 Jun 2019 01:55:06.003 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 01:55:06.799 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 02:34:52.003 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 02:35:22.038 # -tilt #tilt mode exited
+27958:X 10 Jun 2019 04:23:01.003 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 04:23:01.672 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 04:23:31.717 # -tilt #tilt mode exited
+27958:X 10 Jun 2019 06:05:48.003 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 10:02:10.240 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 10:02:40.285 # -tilt #tilt mode exited
+27958:X 10 Jun 2019 10:03:48.002 # +tilt #tilt mode entered
+27958:X 10 Jun 2019 10:04:18.003 # -tilt #tilt mode exited
+27958:signal-handler (1560135219) Received SIGTERM scheduling shutdown...
+27958:X 10 Jun 2019 10:53:39.319 # User requested shutdown...
+27958:X 10 Jun 2019 10:53:39.319 * Removing the pid file.
+27958:X 10 Jun 2019 10:53:39.320 # Sentinel is now ready to exit, bye bye...

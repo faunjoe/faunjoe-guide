@@ -1,0 +1,11 @@
+22659:C 08 Jun 2019 14:00:46.747 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+22659:C 08 Jun 2019 14:00:46.747 # Redis version=5.0.3, bits=64, commit=00000000, modified=0, pid=22659, just started
+22659:C 08 Jun 2019 14:00:46.747 # Configuration loaded
+22660:M 08 Jun 2019 14:00:46.749 * Increased maximum number of open files to 10032 (it was originally set to 256).
+22660:M 08 Jun 2019 14:00:46.753 * Running mode=standalone, port=6379.
+22660:M 08 Jun 2019 14:00:46.753 # Server initialized
+22660:M 08 Jun 2019 14:00:46.754 * Ready to accept connections
+22660:signal-handler (1560135219) Received SIGTERM scheduling shutdown...
+22660:M 10 Jun 2019 10:53:39.324 # User requested shutdown...
+22660:M 10 Jun 2019 10:53:39.324 * Removing the pid file.
+22660:M 10 Jun 2019 10:53:39.325 # Redis is now ready to exit, bye bye...
